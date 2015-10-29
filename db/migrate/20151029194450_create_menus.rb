@@ -1,7 +1,7 @@
-class CreateMenuItems < ActiveRecord::Migration
+class CreateMenus < ActiveRecord::Migration
   def change
-    create_table :menu_items do |t|
-      t.string :course, index: true
+    create_table :menus do |t|
+      t.string :course
       t.string :title, null: false, index: { unique: true }
       t.string :description
 
