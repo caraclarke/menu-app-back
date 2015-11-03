@@ -10,7 +10,8 @@ class MenusController < ApplicationController
   def menu_params
      params.require(:menu).permit(:course,
                                   :title,
-                                  :description)
+                                  :description,
+                                  :avatar)
   end
 
 end

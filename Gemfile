@@ -12,9 +12,11 @@ gem 'pg'
 
 gem 'rack-cors', :require => 'rack/cors'
 
-gem "paperclip", "~> 4.3"
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 gem 'aws-sdk', '~> 2'
+
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
