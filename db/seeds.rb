@@ -10,21 +10,25 @@ Menu.create!([
   {
     course: 'Appetizer',
     title: 'Ceviche',
-    description: 'Ceviche is a seafood dish popular in the coastal regions of Latin America. This dish is made from fresh raw fish cured in lemon and lime citrus juices and spiced with chili peppers.'
+    description: 'Ceviche is a seafood dish popular in the coastal regions of Latin America. This dish is made from fresh raw fish cured in lemon and lime citrus juices and spiced with chili peppers.',
+    avatar_file_name: 'Ceviche'
   },
   {
     course: 'Entree',
     title: 'Chicken Scallopini',
-    description: 'An Italian dish consisting of thinly sliced chicken that is covered in flour, sautéed, then heated and served with a wine-sauce.'
+    description: 'An Italian dish consisting of thinly sliced chicken that is covered in flour, sautéed, then heated and served with a wine-sauce.',
+    avatar_file_name: 'Chicken Scallopini'
   },
   {
     course: 'Entree',
     title: 'Congee',
-    description: 'A Thai rice pudding with egg, chicken and various vegetables. Served with a spicy chili sauce.'
+    description: 'A Thai rice pudding with egg, chicken and various vegetables. Served with a spicy chili sauce.',
+    avatar_file_name: 'Congee'
   },
   {
     course: 'Dessert',
     title: 'Mango-Basil Vacherin',
-    description: 'This crisp-creamy French dessert combines little lime meringue kisses with basil ice cream and sweet mango sorbet.'
+    description: 'This crisp-creamy French dessert combines little lime meringue kisses with basil ice cream and sweet mango sorbet.',
+    avatar_file_name: 'Mango-Basil Vacherin'
   }
 ])
